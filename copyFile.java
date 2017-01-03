@@ -14,12 +14,12 @@ public class CF{
 	
 	/**
 	 * 
-	 * @param args[0]: Origin subfolder name
-	 * @param args[1]: Origin folder path (containing origin subfolder)
-	 * @param args[2]: Origin file name (without extension)
-	 * @param args[3]: Target folder path
-	 * @param args[4]: Target file name (without extension)
-	 * @param args[5]: Target file extension
+	 * @param args[0] Origin subfolder name
+	 * @param args[1] Origin folder path (containing origin subfolder)
+	 * @param args[2] Origin file name (without extension)
+	 * @param args[3] Target folder path
+	 * @param args[4] Target file name (without extension)
+	 * @param args[5] Target file extension
 	 */
 	public static void main(String[] args){	
 		System.out.println("Arguments: "+args.length);
