@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import org.apache.commons.io.FileUtils;
 
 /**
@@ -12,9 +11,7 @@ import org.apache.commons.io.FileUtils;
  * 
  * @author Matthias Wettstein <matthias.wettstein@zoho.com>
  */
-
 public class SD{
-	
 	
 * @param args[0] Path of the directory which needs to be screened
 	 * @param args[1] Path where "currentFile.txt" is saved to (containing a list of the screened files) 
@@ -80,9 +77,7 @@ public class SD{
 		} catch(IOException e){
 			e.printStackTrace();
 	    }
-	}
-
-	
+	}	
 }
 
 			
