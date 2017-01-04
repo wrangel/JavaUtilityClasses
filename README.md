@@ -25,6 +25,6 @@ s.t. the largest element of the geometric expression is 2^2 = 4.
 
 Creating a set (or, a list containing unique elements) of integers to formulate any other integer can be very useful. 
 
-We had a set of customer attributes which all either could apply (1) or not apply (0). The number of attributes was extensible, and they all could apply simultaneously to the customer. This all had to be fed through an interface, which was not meant to change every time a new attribute was introduced. We created a single parameter for the interface, feeding in an integer value. The receiver decomposed the integer value into unique elements of the geometric expression.
+We had a set of customer attributes which all either could apply (1) or not apply (0). The number of attributes was extensible, and they all could apply simultaneously to the customer. This all had to be fed through an interface, which was not meant to change every time a new attribute was introduced. We created a single parameter for the interface, feeding in an integer value. The receiver decomposed the integer value into unique elements of the geometric expression, each of which was associated to a specific customer attribute.
 
 This small class takes as input a member of the geometric expression 2^n, and calculates the decomposition of every integer on the interval [1, 2^n * 2 - 1]. 
